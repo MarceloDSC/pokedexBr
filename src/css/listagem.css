@@ -1,0 +1,67 @@
+.listagem{
+  max-width: 200px;
+}
+
+.listagem .pokemon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: #6b727a;
+  color: #ffffff;
+  padding: 0 5px;
+  cursor: pointer;
+  border-radius:35px;
+  min-height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: 0.17s ease-in-out;
+
+}
+
+.listagem .pokemon:hover{
+  transform: scale(1.06);
+}
+
+.listagem .pokemon img{
+  width: 25%;
+  border-radius: 50%;
+}
+
+.listagem .pokemon span{
+  padding-right: 20px;
+}
+.listagem .pokemon.pikachu:hover{
+  background-color: #fcc719;
+  font-size:16px;
+  font-weight: bold;
+}
+.listagem .pokemon.bulbassauro:hover{
+  background-color: #49d0b0;
+  font-size:13px;
+  font-weight: bold;
+}
+.listagem .pokemon.charmander:hover{
+  background-color: #ed8a88;
+  font-size:13px;
+  font-weight: bold;
+}
+.listagem .pokemon.gengar:hover{
+  background-color: #ba68c8;
+  font-size:13px;
+  font-weight: bold;
+}
+
+.listagem .pokemon.gyarados:hover{
+  background-color: #76befe;
+  font-size:13px;
+  font-weight: bold;
+}
+.listagem .pokemon.dragonite:hover{
+  background-color: #c29791;
+  font-size:13px;
+  font-weight: bold;
+}
+
+.listagem .pokemon.ativa{
+  background-color: #e43737;
+}
